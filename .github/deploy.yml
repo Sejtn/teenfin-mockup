@@ -1,11 +1,8 @@
-name: Deploy Vite to GitHub Pages
+name: Deploy Vite React app
 
 on:
   push:
     branches: [ main ]
-
-permissions:
-  contents: write
 
 jobs:
   build:
